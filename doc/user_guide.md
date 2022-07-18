@@ -140,4 +140,3 @@ Infer를 실행하고 `infer explore` 를 입력하면 리포트로 더 많은 �
 infer run -- gradle build
 infer explore
 ```
-
