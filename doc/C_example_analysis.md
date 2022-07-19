@@ -1,4 +1,4 @@
-nfer 예제 분석
+# Infer 예제 분석
 예제 코드들은 infer git-hub에서 다운 받을 수 있다.
 [infer git-hub](https://github.com/facebook/infer)
 
