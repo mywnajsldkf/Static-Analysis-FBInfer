@@ -1,4 +1,4 @@
-# infer install in linux
+# Infer install in linux
 설치 방법은 다음 링크의 자료를 바탕으로 작성하였다.
 [infer_install.md](https://github.com/facebook/infer/blob/main/INSTALL.md)
 
