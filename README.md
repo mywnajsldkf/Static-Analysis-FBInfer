@@ -18,12 +18,27 @@
     - 분석 대상: Java, C, C++, Objective C (정우: `C++`, 정인: `Java`)
     - 분석 목록: [기술 문서](https://fbinfer.com/docs/all-issue-types) 참고
 
+## Contents
 
+- [사용자 가이드](doc/user_guide.md) 
+- 설치방법
+  1. [mac]()
+  2. [linux] ref()
+  
+- 예제분석
+  1. [C]
+  2. [JAVA]
+  3. [Gradle]
+
+- Analyses
 
 ## Plan
 
 스터디 진행 상황은 [프로젝트](https://github.com/mywnajsldkf/Static-Analysis-FBInfer/projects/1)로 관리하고 있습니다.
 
 - 6월 29일 ~ 7월 2일: FBInfer 설치, Introduction to Compiler 학습
-- 7월 3일 ~ 7월 9일: 
-- 7월 10일 ~ 7월 16일 
+- 7월 3일 ~ 7월 9일: Infer 예제분석 결과 공유
+- 7월 10일 ~ 7월 16일: git-hub 자료작성 및 업로드
+- 7월 19일: 교수님 면담
+- 8월 1일 ~ 8월 8일: 면담 뒤 수정사항 반영
+- 8월 9일: 교수님 면담
