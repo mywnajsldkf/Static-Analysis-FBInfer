@@ -163,6 +163,7 @@ example.c 코드의 error issue는 null dereference 2개, resource leak 1개, de
 
 ### 2-1. Issue type: Null dereference
 (#0의 오류는 hello.c와 동일한 에러이기 때문에 생략)
+
 #1의 경우는 3개의 함수를 거쳐서 발생한 오류이다.
 
     // 1번 함수
