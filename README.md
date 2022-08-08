@@ -22,12 +22,12 @@
 
 - [사용자 가이드](doc/user_guide.md) 
 - 설치방법
-  1. [mac]()
+  1. [mac](doc/fbinfer_mac_install.md)
   2. [linux](https://github.com/mywnajsldkf/Static-Analysis-FBInfer/blob/master/doc/Infer_linux_install.md)
   
 - 예제분석
   1. [C](https://github.com/mywnajsldkf/Static-Analysis-FBInfer/blob/master/doc/C_example_analysis.md)
-  2. [JAVA]
+  2. [JAVA]()
   3. [Gradle]
 
 - Analyses
