@@ -237,6 +237,7 @@ c에서는 malloc를 c++에서는 malloc와 new를 통해서 구현할 수 있�
     }
    
    위와 같이 코드를 수정했더니 오류가 발생하지 않음을 볼 수 있다.
+[[ref) List of all issue types - memory leak]](https://fbinfer.com/docs/all-issue-types#memory_leak)
 
 ### 2-5. Issue type: Dead store
 dead store은 malloc나 new를 통해서 메모리를 할당했지만 free/delete 과정을 거치지 않아 메모리가 회수되지 않을 때 발생하는 issue이다. 메모리를 회수하지 않을 시 컴퓨터에는 불필요한 용량을 차지하게 되고 이는 성능저하로 이어진다.
@@ -260,7 +261,7 @@ dead store은 malloc나 new를 통해서 메모리를 할당했지만 free/delet
 위와 같이 free를 시켜주니 오류가 발생하지 않았다.
 
 ![example_c_edit_result](https://user-images.githubusercontent.com/91970346/183456544-3d63fd3d-4e25-41b4-96ba-7795ddb8171b.png)
-
+[[ref) List of all issue types - dead store]](https://fbinfer.com/docs/all-issue-types#dead_store)
 
 ## 3. Reference
 ### 3-1. Pulse 
