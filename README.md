@@ -15,7 +15,7 @@
   - FBInfer 실행 방법([ref](https://github.com/facebook/infer/tree/main/examples))
   - 예제(ex. 버퍼 오버플로우) 분석 결과 정리
     - FBInfer GitHub에 준비된 예제 / 인터넷에서 확인할 수 있는 다양한 예제 참고
-    - 분석 대상: Java, C, C++, Objective C (정우: `C++`, 정인: `Java`)
+    - 분석 대상: Java, C, C++, Objective C (정우: `C`, 정인: `Java`)
     - 분석 목록: [기술 문서](https://fbinfer.com/docs/all-issue-types) 참고
 
 ## Contents
