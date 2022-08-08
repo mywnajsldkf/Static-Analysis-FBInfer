@@ -22,6 +22,7 @@ ubuntu 설치 과정은 다음과 같다.
 
 ## 1. Binary file 설치
  [https://github.com/facebook/infer/releases/tag/v1.1.0](https://github.com/facebook/infer/releases/tag/v1.1.0)
+ 
  위 사이트에서 infer-linux64-v1.1.0.tar.xz을 wget으로 다운받는다.
  이 후 tar.xz 파일을 해제한 뒤에 사용하면 된다.
 
