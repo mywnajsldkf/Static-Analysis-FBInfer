@@ -76,7 +76,7 @@ infer로 코드를 분석해보겠습니다.
 - `infer --help` 를 사용하면 다양한 infer 명령어를 확인할 수 있습니다.
 
 ```shell
-infer run --javac Hello.java
+infer run -- javac Hello.java
 ```
 
 <img src="../image/helloworld-java.png" alt="helloworld-java" style="zoom:50%;" />

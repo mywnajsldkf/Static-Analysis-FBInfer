@@ -8,7 +8,7 @@
 
 > **Summary**
 
-1. 처음 Infer 프로젝트를 시작할 때는 `make clean`, `gradle clean`명령어로 프로젝트를 정리합니다.
+1. 처음 Infer 프로젝트를 시작할 때는 `make clean`, `gradle clean` 명령어로 프로젝트를 정리합니다.
 
 2. 여러번 Infer를 실행한다면, Infer를 실행할 때마다 프로젝트를 정리하거나 `--reactive` 를 infer 명령어에 추가합니다.
 
@@ -51,6 +51,21 @@ infer run -o test_result -- javac Hello.java
 Infer를 실행한 결과는 `infer-out/`에 저장됩니다. Infer는 각 함수와 메서드를 따로 분석합니다. 만약 메서드 또는 함수를 분석하다가 에러를 만나면 일단 그 메서드와 함수 분석을 멈추고, 다음 메서드와 함수를 분석합니다. 이렇게 코드에서 Infer를 실행하고 발생할 수 있는 에러를 찾아 고치기를 반복하면서 작업하면 됩니다.
 
 에러들은 표준 출력형 또는 `infer-out/report.txt`에서 확인할 수 있습니다. 
+
+```
+#0
+Hello.java:4: error: Null Dereference
+  object `s` last assigned on line 3 could be null and is dereferenced at line 4.
+  2.      int test() {
+  3.         String s = null;
+  4. >       return s.length();
+  5.      }
+  6.   }
+
+Found 1 issue
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 1
+```
 
 
 

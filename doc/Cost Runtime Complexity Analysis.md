@@ -125,6 +125,8 @@ class Cost {
 {"hash":"1ea66849271a91f1a9fccf8c3c93453a","loc":{"file":"Cost.java","lnum":4,"cnum":-1,"enum":-1},"procedure_name":"loop","procedure_id":"Cost.loop(java.util.ArrayList):void","is_on_ui_thread":false,"exec_cost":{"polynomial_version":10,"polynomial":"hJWmvgAAABMAAAAHAAAAEgAAABGRkJCQsEUA/5IpQ29zdC5qYXZh","hum":{"hum_polynomial":"⊤","hum_degree":"Top","big_o":"Top"},"trace":[{"level":0,"filename":"Cost.java","line_number":5,"column_number":-1,"description":"Unbounded loop"},{"level":0,"filename":"Cost.java","line_number":5,"column_number":-1,"description":"Loop"}]},"autoreleasepool_size":{"polynomial_version":10,"polynomial":"hJWmvgAAAAYAAAADAAAACAAAAAiSoKBAQEA=","degree":0,"hum":{"hum_polynomial":"0","hum_degree":"0","big_o":"O(0)"},"trace":[]}}]
 ```
 
+결과에서는 file 이름, 실행된 절차 이름과 어떤 타입으로 반환하는지, big_o는 몇인지 확인할 수 있다.
+
 앞 경로에 이름을 바꿔서 이동시킨다.
 
 for문안에 실행할 내용을 작성해서 다시 infer로 검사한다.
