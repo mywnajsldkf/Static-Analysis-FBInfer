@@ -27,10 +27,12 @@
   
 - 예제분석
   1. [C](https://github.com/mywnajsldkf/Static-Analysis-FBInfer/blob/master/doc/C_example_analysis.md)
-  2. [JAVA]()
-  3. [Gradle]
+  2. [JAVA](doc/java_example_analysis.md)
+  3. Gradle
 
 - Analyses
+  1. [Cost Runtime Complexity Analysis](https://github.com/mywnajsldkf/Static-Analysis-FBInfer/blob/master/doc/Cost%20Runtime%20Complexity%20Analysis.md)
+
 
 ## Plan
 
